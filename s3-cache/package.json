@@ -1,0 +1,24 @@
+{
+  "name": "s3-cache",
+  "description": "Ingrain Studio API",
+  "keywords": ["amazon", "s3", "cache", "download"],
+  "version": "0.0.0",
+  "dependencies": {
+      "aws-sdk": "^2.1.14",
+      "mkdirp": "~0.5.0"
+  },
+  "preferGlobal": "true",
+  "main": "s3-cache.js",
+  "scripts": {
+  },
+  "homepage": "https://github.com/rehmanabdul/s3-cache",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/rehmanabdul/s3-cache"
+  },
+  "bugs": {
+      "url": "https://github.com/rehmanabdul/s3-cache/issues"
+  },
+  "author": "Abdul Rehman <abdul@ingrain.io>",
+  "license": "ISC"
+}
