@@ -1,10 +1,10 @@
 # s3-cache
-Enables reading files from S3 buckets with local caching
+Enables reading files from Amazon S3 buckets with local caching
 
 ## Example
 ```node
 
-var s3Cache = require('s3-cache');
+var s3Cache = require('amazon-s3-cache');
 
 s3Cache.configureAWS({
     region: 'us-west-2'
