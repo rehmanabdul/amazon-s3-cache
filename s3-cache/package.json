@@ -1,6 +1,6 @@
 {
-  "name": "s3-cache",
-  "description": "Ingrain Studio API",
+  "name": "amazon-s3-cache",
+  "description": "Enables reading files from S3 buckets with local caching",
   "keywords": ["amazon", "s3", "cache", "download"],
   "version": "0.0.0",
   "dependencies": {
