@@ -87,7 +87,6 @@ var download = function(bucket, key, filePath, eventEmitter, callback){
                 .on('success', function(response) {
                 })
                 .on('error', function(error, response) {
-                    eventEmitter.emit('error', error);
                 })
                 .send();
             });
